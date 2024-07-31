@@ -1,3 +1,5 @@
+
+
 const decreasebtn = document.getElementById('decreasebtn');
 const resetbtn = document.getElementById('resetbtn');
 const increasebtn = document.getElementById('increasebtn');
@@ -16,8 +18,3 @@ resetbtn.onclick = function(){
     count = 0;
     countlabel.textContent = count;
 }
-
-
-
-
-
