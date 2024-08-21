@@ -13,9 +13,21 @@
     color: white;
     background-color: hsl(214 , 100% , 74%);
     border-radius: 5px;
+    position: relative;
+    z-index: 0;
+
     cursor: pointer;
     transition: background-color 0.25s;
 }
+.buttons::after{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    
+}
 .buttons:hover{
     background-color: hsl(214 , 100% , 56%);
+}
+p{
+    text-align: center;
 }
